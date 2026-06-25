@@ -26,15 +26,24 @@ A menu-driven interface allows users to interactively run SQL queries and view r
 - CSV Dataset (`cleaned_dataset.csv`)
 
 ---
-
+```
 ## 📂 Project Structure
 DataProject3/
 │
-├── cleaned_dataset.csv
-├── project3.db
 ├── load_data.py
-└── queries.sql
-
+├── project3.db
+├── cleaned_dataset.csv
+├── cleaned_dataset.xlsx
+├── queries.sql
+├── README.md
+│
+└── images/
+    ├── first_10_records.png
+    ├── delivered_orders.png
+    ├── payment_method.png
+    ├── revenue_by_product.png
+    └── top10_orders.png
+```
 ---
 
 ## ⚙️ Project Workflow
@@ -104,19 +113,19 @@ python load_data.py
 ## 📸 Screenshots
 
 ### 1. First 10 Records
-![First 10 Records](images/first10records.png)
+![First 10 Records](first10records.png)
 
 ### 2. Delivered Orders
-![Delivered Orders](images/delivered_orders.png)
+![Delivered Orders](delivered_orders.png)
 
 ### 3. Orders by Payment Method
-![Payment Method](images/payment_method_orders.png)
+![Payment Method](payment_method_orders.png)
 
 ### 4. Revenue by Product
-![Revenue](images/revenue_by_pdt.png)
+![Revenue](revenue_by_pdt.png)
 
 ### 5. Top 10 Highest Orders
-![Top 10 Orders](images/top10_highest_orders.png)
+![Top 10 Orders](top10_highest_orders.png)
 
 ##  Author
 - Name: Drisya M  
